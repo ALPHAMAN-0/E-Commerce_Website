@@ -2,6 +2,18 @@
 
 **Status: Planned — no code has been added yet.** This repo is a placeholder for a standalone e-commerce web application; this README will be updated with a real tech stack, setup steps, and architecture notes once development starts.
 
+## Architecture / How it Works
+
+```mermaid
+flowchart LR
+    A[User] --> B[E Commerce Website]
+    B --> C{Logic}
+    C --> D[(Data)]
+    C --> E[Output]
+    D --> C
+```
+
+
 ---
 
 ## Planned Scope
