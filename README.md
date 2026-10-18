@@ -5,12 +5,8 @@
 ## Architecture / How it Works
 
 ```mermaid
-flowchart LR
-    A[User] --> B[E Commerce Website]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
+flowchart TD
+    Placeholder_Repo["Placeholder_Repo"]
 ```
 
 
